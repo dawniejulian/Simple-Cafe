@@ -120,9 +120,26 @@ a {
   background: var(--brown-700);
   color: #fff;
   border-radius: 10px;
-  padding: 0.5rem 0.8rem;
-  font-weight: 700;
+  width: 56px;
+  height: 44px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+}
+
+.menu-toggle-icon {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-toggle-icon span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #fff;
+  border-radius: 999px;
 }
 
 .hero {
