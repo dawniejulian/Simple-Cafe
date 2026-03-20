@@ -1,0 +1,6 @@
+<svg width="220" height="150" viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Avocado toast">
+  <rect width="220" height="150" rx="18" fill="#f6efe2"/>
+  <rect x="42" y="38" width="136" height="74" rx="18" fill="#d39b66"/>
+  <ellipse cx="110" cy="76" rx="48" ry="24" fill="#61a67a"/>
+  <circle cx="110" cy="76" r="10" fill="#7b4a2d"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="220" height="150" viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Caramel latte">
+  <rect width="220" height="150" rx="18" fill="#efe2cc"/>
+  <rect x="70" y="42" width="70" height="66" rx="12" fill="#fffaf2" stroke="#6a3f2a" stroke-width="4"/>
+  <ellipse cx="105" cy="42" rx="35" ry="10" fill="#8a5a3b"/>
+  <path d="M140 55h14c11 0 20 8 20 18s-9 18-20 18h-14" fill="none" stroke="#6a3f2a" stroke-width="4"/>
+</svg>

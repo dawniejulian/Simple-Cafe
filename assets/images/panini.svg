@@ -1,0 +1,6 @@
+<svg width="220" height="150" viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Panini sandwich">
+  <rect width="220" height="150" rx="18" fill="#f6efe2"/>
+  <rect x="34" y="46" width="152" height="24" rx="12" fill="#dca86f"/>
+  <rect x="40" y="68" width="140" height="12" rx="6" fill="#2f7a4f"/>
+  <rect x="34" y="80" width="152" height="24" rx="12" fill="#dca86f"/>
+</svg>

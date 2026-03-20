@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Cafe | Contact</title>
+  <meta name="description" content="Contact Simple Cafe for questions, reservations, and location details." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Simple Cafe</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-hero">
+      <div class="container narrow reveal">
+        <p class="eyebrow">Get in Touch</p>
+        <h1>We Would Love to Hear From You</h1>
+        <p>Have a question or planning a visit? Send us a message and we will reply soon.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid two-col">
+        <article class="card reveal">
+          <h2>Contact Form</h2>
+          <form id="contact-form" class="contact-form" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </article>
+
+        <article class="card reveal">
+          <h2>Visit Simple Cafe</h2>
+          <ul class="list contact-list">
+            <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+            <li><strong>Email:</strong> hello@simplecafe.com</li>
+            <li><strong>Address:</strong> 123 Green Street, City Center</li>
+            <li><strong>Hours:</strong> Mon-Sun, 7:00 AM - 9:00 PM</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Simple Cafe. Made with care.</p>
+      <div class="social-links" aria-label="Social media links">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="X">X</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

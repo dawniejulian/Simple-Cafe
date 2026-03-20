@@ -1,0 +1,15 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dessert cake slice">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe2"/>
+      <stop offset="100%" stop-color="#f1dfcf"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg4)"/>
+  <polygon points="250,340 430,170 570,340" fill="#f7deb1" stroke="#6a3f2a" stroke-width="8"/>
+  <polygon points="300,300 430,185 520,300" fill="#f3b9c0"/>
+  <rect x="245" y="340" width="330" height="28" rx="10" fill="#fffaf2" stroke="#6a3f2a" stroke-width="6"/>
+  <circle cx="430" cy="160" r="14" fill="#e1515f"/>
+  <path d="M412 160c8-10 28-10 36 0" fill="none" stroke="#2f7a4f" stroke-width="4"/>
+  <text x="400" y="480" text-anchor="middle" font-family="Verdana, sans-serif" font-size="34" fill="#3e271a">Desserts</text>
+</svg>
